@@ -34,7 +34,7 @@ const Hero = () => {
       {/* Green dots */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none ">
         {[...Array(30)].map((_, i) => (
-          <div
+          <div key={i}
             className="absolute w-1.5 h-1.5 rounded-full opacity-60"
             style={{
               backgroundColor: "#20B2A6",
@@ -88,9 +88,9 @@ const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow Me:</span>
 
               {[
-                { icon: Github, href: "" },
-                { icon: Linkedin, href: "" },
-                { icon: Twitter, href: "" },
+                { icon: Github, href: "https://github.com/sajjannnn" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/sajjan-kumar18" },
+                { icon: Twitter, href: "https://x.com/ctrlsazz" },
               ].map((social, idx) => (
                 <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
                   {<social.icon className="h-5 w-5" />}

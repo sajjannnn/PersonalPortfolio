@@ -18,20 +18,12 @@ const projects = [
     github: "#",
   },
   {
-    title: "AI Writing Assistant",
-    description: "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+    title: "Food Delivery App",
+    description: "A responsive food delivery application built with React, TypeScript, and Vite, featuring restaurant listings, menu exploration, and cart management with a clean and modern UI.",
     image: "/projects/project3.png",
     tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "Project Management Tool",
-    description: "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+    link: "https://bite-now-psi.vercel.app/",
+    github: "https://github.com/sajjannnn/BiteNow",
   },
 ];
 
