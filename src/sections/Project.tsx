@@ -21,7 +21,7 @@ const projects = [
     title: "Food Delivery App",
     description: "A responsive food delivery application built with React, TypeScript, and Vite, featuring restaurant listings, menu exploration, and cart management with a clean and modern UI.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
+    tags: ["React", "Redux Toolkit", "TypeScript","API Integration"],
     link: "https://bite-now-psi.vercel.app/",
     github: "https://github.com/sajjannnn/BiteNow",
   },
